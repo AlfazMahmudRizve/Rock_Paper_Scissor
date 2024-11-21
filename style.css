@@ -69,3 +69,73 @@ img{
     border-radius: 1rem;
     padding: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+        height: 4rem;
+        line-height: 4rem;
+    }
+
+    .choice {
+        height: 150px;
+        width: 150px;
+    }
+
+    img {
+        height: 120px;
+        width: 90px;
+    }
+
+    .choices {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .score-board {
+        flex-direction: column;
+        font-size: 1.5rem;
+        gap: 2rem;
+    }
+
+    #user-score,
+    #comp-score {
+        font-size: 3rem;
+    }
+
+    .msg-container {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.2rem;
+        height: 3rem;
+        line-height: 3rem;
+    }
+
+    .choice {
+        height: 120px;
+        width: 120px;
+    }
+
+    img {
+        height: 100px;
+        width: 70px;
+    }
+
+    .choices {
+        gap: 1.5rem;
+    }
+
+    .score-board {
+        font-size: 1.2rem;
+        gap: 1rem;
+    }
+
+    #user-score,
+    #comp-score {
+        font-size: 2.5rem;
+    }
+}
